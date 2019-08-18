@@ -17,7 +17,7 @@ def del_ptr(head,ptr):
     top = head
     # 情形1:要删除的节点在链表头部
     if ptr.num == head.num:
-        head = head.num
+        head = head.next
         print('已删除第%d号员工 姓名:%s  薪资:%d'%(ptr.num,ptr.name,ptr.salary))
 
     else:
