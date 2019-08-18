@@ -66,6 +66,7 @@ head.name = namedata[0]
 head.salary = data[0][1]
 head.next = None
 ptr = head
+
 # 建立链表
 for i in range(1,12):
     newnode = employee()
