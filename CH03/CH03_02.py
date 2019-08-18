@@ -35,7 +35,6 @@ def insertnode(head,ptr,num,salary,name):
         return InsertNode
     else:
         if ptr.next==None: # 插入最后一个节点
-            InsertNode.next = ptr.next
             ptr.next = InsertNode
         else: # 插入中间节点
             InsertNode.next = ptr.next
